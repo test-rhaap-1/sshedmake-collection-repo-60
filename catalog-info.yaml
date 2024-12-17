@@ -1,0 +1,21 @@
+---
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: sshedmake_namespace_60.myrhdh_60
+  description: test collection 60
+  tags:
+    - ansible
+    - collection
+  annotations:
+    backstage.io/techdocs-ref: dir:.
+    github.com/project-slug: test-rhaap-1/sshedmake-collection-repo-60
+  links:
+    - url: https://devspaces.apps.ansible-rhdh-dev.testing.ansible.com/#https://github.com/test-rhaap-1/sshedmake-collection-repo-60
+      title: Open Ansible project in OpenShift Dev Spaces
+      icon: web
+spec:
+  type: collection-project
+  system: test
+  lifecycle: production
+  owner: sshedmake
